@@ -1,2 +1,2 @@
 # homebrew-mac
-Tap for my Homebrew formulas
+Tap for my Homebrew formulas.
