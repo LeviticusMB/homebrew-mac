@@ -6,7 +6,7 @@ class HbaseBackup < Formula
   sha256 "3db4ec86ba2442e05bcb87d8627842814b0b0b41783642004f0425277a1b19d4"
 
   depends_on "hbase" => :recommended
-  depends_on :python => :recommended
+  depends_on "python@2" => :recommended
 
   def install
     bin.install "hbase-backup-table.rb"
