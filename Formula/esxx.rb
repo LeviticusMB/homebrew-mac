@@ -8,7 +8,7 @@ class Esxx < Formula
   revision 1
 
   depends_on "ant" => :build
-  depends_on :java => "1.6"
+  depends_on "openjdk@8"
 
   def install
     system "ant", "-verbose", "-Dskip-install-mac=1",
