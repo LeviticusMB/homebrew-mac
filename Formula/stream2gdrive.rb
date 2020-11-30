@@ -4,7 +4,7 @@ class Stream2gdrive < Formula
   url "https://github.com/LeviticusMB/Stream2GDrive/releases/download/1.3/Stream2GDrive-1.3-0-g230961a.zip"
   sha256 "60a89eb4d67fde0664cd6eb8d516abf0bbac26b9c994708835a16d688bb8b320"
 
-  depends_on :java => "1.6"
+  depends_on "openjdk@8"
 
   def install
     libexec.install "stream2gdrive.jar"
